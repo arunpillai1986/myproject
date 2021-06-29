@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [KWI Test automtion regression suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.boss.qa.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" verbose="3" name="report schedule page test(failed)" parallel="tests">
+    <classes>
+      <class name="com.boss.qa.tests.ReportScheduleTest">
+        <methods>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFiscalCalendarFrequencyDailyAndPeriodLastWeekTest"/>
+          <include name="tearDown"/>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFiscalCalendarFrequencyDailyAndPeriodYesterdayTest"/>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFrequencyMonthlyAndPeriodBMTDTest"/>
+          <include name="setUp"/>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFiscalCalendarFrequencyDailyAndPeriodCurrentMonthTest"/>
+          <include name="verifyBlankStartDateErrorMessageTest"/>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFiscalCalendarFrequencyOnceAndPeriodDateOfFireTodayTest"/>
+          <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFrequencyWeeklyAndPeriodBWTDTest"/>
+        </methods>
+      </class> <!-- com.boss.qa.tests.ReportScheduleTest -->
+    </classes>
+  </test> <!-- report schedule page test(failed) -->
+</suite> <!-- Failed suite [KWI Test automtion regression suite] -->

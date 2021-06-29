@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="KWI Test automtion regression suite" duration-ms="17519" started-at="2021-05-01T09:45:26Z" finished-at="2021-05-01T09:45:44Z">
+    <groups>
+    </groups>
+    <test name="login page test" duration-ms="16499" started-at="2021-05-01T09:45:26Z" finished-at="2021-05-01T09:45:43Z">
+      <class name="com.boss.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.boss.qa.tests.LoginPageTest@262b2c86]" name="setUp" is-config="true" duration-ms="7621" started-at="2021-05-01T09:45:26Z" finished-at="2021-05-01T09:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.boss.qa.tests.LoginPageTest@262b2c86]" name="verifyLoginPageTitleTest" duration-ms="11" started-at="2021-05-01T09:45:34Z" finished-at="2021-05-01T09:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.boss.qa.tests.LoginPageTest@262b2c86]" name="verifyLoginTest" duration-ms="8137" started-at="2021-05-01T09:45:34Z" finished-at="2021-05-01T09:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.boss.qa.tests.LoginPageTest@262b2c86]" name="tearDown" is-config="true" duration-ms="711" started-at="2021-05-01T09:45:42Z" finished-at="2021-05-01T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.boss.qa.tests.LoginPageTest -->
+    </test> <!-- login page test -->
+    <test name="home page test" duration-ms="17518" started-at="2021-05-01T09:45:26Z" finished-at="2021-05-01T09:45:44Z">
+      <class name="com.boss.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.boss.qa.tests.HomePageTest@7cbd213e]" name="setUp" is-config="true" duration-ms="8961" started-at="2021-05-01T09:45:26Z" finished-at="2021-05-01T09:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homeSetup()[pri:0, instance:com.boss.qa.tests.HomePageTest@7cbd213e]" name="homeSetup" is-config="true" duration-ms="7600" started-at="2021-05-01T09:45:35Z" finished-at="2021-05-01T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSetup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.boss.qa.tests.HomePageTest@7cbd213e]" name="verifyHomePageTitleTest" duration-ms="155" started-at="2021-05-01T09:45:43Z" finished-at="2021-05-01T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyLogoOnHomePage()[pri:0, instance:com.boss.qa.tests.HomePageTest@7cbd213e]" name="verifyLogoOnHomePage" duration-ms="51" started-at="2021-05-01T09:45:43Z" finished-at="2021-05-01T09:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoOnHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.boss.qa.tests.HomePageTest@7cbd213e]" name="tearDown" is-config="true" duration-ms="751" started-at="2021-05-01T09:45:43Z" finished-at="2021-05-01T09:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.boss.qa.tests.HomePageTest -->
+    </test> <!-- home page test -->
+  </suite> <!-- KWI Test automtion regression suite -->
+</testng-results>

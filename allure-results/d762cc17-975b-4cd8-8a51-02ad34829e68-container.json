@@ -1,0 +1,1 @@
+{"uuid":"d762cc17-975b-4cd8-8a51-02ad34829e68","name":"com.boss.qa.tests.HomePageTest","children":["757d258a-1996-4e15-89a8-5c173d276689"],"befores":[{"name":"homeSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1619854942027,"stop":1619854949595}],"afters":[],"links":[],"start":1619854935247,"stop":1619854950805}

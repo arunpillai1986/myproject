@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="KWI Test automation regression suite" thread-count="3" parallel="tests" verbose="3" >	
+
+<!--<suite name="KWI Test automation regression suite" parallel="methods"  thread-count="2" verbose="3" >-->
+
+
+    <listeners> 
+          <listener class-name="com.boss.qa.listeners.ExtentReportListener" />
+          <listener class-name="com.boss.qa.listeners.RetryTransformer" />
+          
+    </listeners>
+
+	
+	
+	<test name="report schedule page test" >		
+		<classes>
+			<class name="com.boss.qa.tests.ReportScheduleTest" />	
+					
+		</classes>
+	</test>
+	
+	
+	
+	 <!--<test name="report schedule page test" parallel="methods" thread-count="2" verbose="3">
+        <classes>
+            <class name="com.boss.qa.tests.ReportScheduleTest">
+                <methods>
+                    <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFrequencyWeeklyAndPeriodBWTDTest"/>
+                    <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFrequencyMonthlyAndPeriodBMTDTest"/>
+                    <include name="verifyReportSchedulerForCloud9POSEmpProductivityReportWithFrequencyQuarterlyAndPeriodBQTDTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+
+ 
+</suite>
